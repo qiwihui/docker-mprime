@@ -1,12 +1,9 @@
 FROM debian:jessie
+MAINTAINER Stephane Bres "stephanejrbres@gmail.com"
 
 ADD http://www.mersenne.org/ftp_root/gimps/p95v287.linux64.tar.gz p95v287.linux32.tar.gz 
-
-
 RUN mkdir -p /gimps
 RUN tar -zxvf p95v287.linux32.tar.gz -C /gimps
-
-
 ENTRYPOINT ./gimps/mprime
 
 
