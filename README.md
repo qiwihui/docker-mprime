@@ -6,6 +6,8 @@ Hub page for the full readme on how to use the Docker image.
 
 # How to use this
 
+You can use [Docker hub to pull the image](https://hub.docker.com/r/sbres/mprime/) or build yourself.
+
 Git clone the repo and go to the repo 
 
 ```
